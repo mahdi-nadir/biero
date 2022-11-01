@@ -1,0 +1,12 @@
+<ul class="biere">
+    {{#data}}
+    <li class="bieree">
+        <a href="biere/{{id_biere}}">
+            <div class="biere__infos">
+                <img src="{{image}}" alt="{{nom}}" class="biere__image"> 
+                {{nom}} - {{brasserie}}, {{note_moyenne}} <small>{{note_nombre}}</small>
+            </div>
+        </a>
+    </li>
+    {{/data}}
+</ul>

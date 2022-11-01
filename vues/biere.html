@@ -1,0 +1,11 @@
+<ul class="biere">
+    {{#data}} <!-- data est un tableau de bières et # c'est pour boucler-->
+    <article class="bieree"><a href="biere/{{id_biere}}">
+        <img src="{{image}}" alt="{{nom}}" >
+        <h2>{{nom}}</h2>
+        <h3>{{brasserie}}</h3>
+        <small>{{note}}/5 ({{nombre}})</small>
+        <p>{{description}}</p>
+    </a></article>
+    {{/data}}
+</ul>
